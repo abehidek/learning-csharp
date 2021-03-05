@@ -24,13 +24,9 @@ namespace csharp_course.poo_concepts
             set
             {
                 if (value == "G" || value == "PG" || value == "PG-13" || value == "R" || value == "NR")
-                {
                     rating = value;
-                }
                 else
-                {
                     rating = "NR";
-                }
             }
         }
     }
