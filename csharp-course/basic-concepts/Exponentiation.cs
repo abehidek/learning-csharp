@@ -10,14 +10,25 @@ namespace csharp_course.basic_concepts
     {
         public static void CalculateExponentiation()
         {
-            Console.Clear();
-            Console.Write("Digite a base: ");
-            double baseNum = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Digite o expoente: ");
-            double powNum = Convert.ToDouble(Console.ReadLine());
+            bool getOut = false;
+            while (!getOut)
+            {
+                Console.Clear();
+                Console.Write("Type the base: ");
+                double baseNum = Convert.ToDouble(Console.ReadLine());
+                Console.Write("Type the exponent: ");
+                double powNum = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Seu resultado é: " + GetPow(baseNum, powNum));
-            Console.ReadLine();
+                Console.WriteLine("The result is: " + GetPow(baseNum, powNum));
+
+                // BREAK THE WHILE
+                Console.WriteLine("\n\n");
+                Console.Write("Do you want to make another operation? (Y/N): ");
+                string anotherOp = Console.ReadLine();
+                if (anotherOp == "N" || anotherOp == "n" || anotherOp == "no")
+                    getOut = true;
+            }
+            
         }
         static double GetPow(double baseNum, double powNum)
         {

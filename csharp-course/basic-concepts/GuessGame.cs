@@ -10,7 +10,7 @@ namespace csharp_course.basic_concepts
     {
         public static void Game()
         {
-            string secretWord = "abe";
+            string secretWord = "secretword";
             string guess = "";
 
             int guessNum = 0;
@@ -32,6 +32,8 @@ namespace csharp_course.basic_concepts
                 Console.WriteLine("You lose");
             else
                 Console.Write("You win");
+
+            Console.ReadLine();
         }
     }
 }
