@@ -49,7 +49,9 @@
     <Compile Include="basic-concepts\BasicConcepts.cs" />
     <Compile Include="poo-concepts\Movie.cs" />
     <Compile Include="poo-concepts\PooConcepts.cs" />
+    <Compile Include="poo-concepts\Song.cs" />
     <Compile Include="poo-concepts\Student.cs" />
+    <Compile Include="poo-concepts\UsefulTools.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
