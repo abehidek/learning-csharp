@@ -10,9 +10,10 @@ namespace csharp_course.poo_concepts
     {
         public static void AllPooConcepts()
         {
+
             // STATIC METHODS
-            Console.WriteLine(Math.Sqrt(144)); // EXAMPLE OF STATIC METHOD, YOU DON'T NEED TO CREATE AN OBJECT IN ORDER TO ACCESS IT.
-            UsefulTools.SayHi("Abe");
+            //Console.WriteLine(Math.Sqrt(144)); // EXAMPLE OF STATIC METHOD, YOU DON'T NEED TO CREATE AN OBJECT IN ORDER TO ACCESS IT.
+            //UsefulTools.SayHi("Abe");
             // ----------
             // STATIC CLASS ATRIBUTTES
             //Song holiday = new Song("Holiday", "Green Day", 200);
