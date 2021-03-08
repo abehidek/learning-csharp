@@ -10,17 +10,27 @@ namespace csharp_course.poo_concepts
     {
         public static void AllPooConcepts()
         {
+            // INHERITANCE
+            //Chef chef = new Chef();
+            //chef.MakeChicken();
+            //chef.MakeSpecialDish();
+            //ItalianChef italianchef = new ItalianChef();
+            //italianchef.MakeChicken();
+            //italianchef.MakePasta();
+            /*italianchef.MakeSpecialDish();*/ // THIS IS AN OVERWRITTED METHOD
 
+            // ----------
             // STATIC METHODS
             //Console.WriteLine(Math.Sqrt(144)); // EXAMPLE OF STATIC METHOD, YOU DON'T NEED TO CREATE AN OBJECT IN ORDER TO ACCESS IT.
             //UsefulTools.SayHi("Abe");
+
             // ----------
             // STATIC CLASS ATRIBUTTES
             //Song holiday = new Song("Holiday", "Green Day", 200);
             //Console.WriteLine(Song.songCount);
             //Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
-
             //Console.WriteLine(Song.songCount);
+
             // ----------
             //GET AND SET
             //Movie avengers = new Movie("The Avengers", "Joss Whedon", "PG-13");

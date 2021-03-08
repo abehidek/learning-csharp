@@ -14,7 +14,7 @@ namespace csharp_course
     {
         static void Main(string[] args)
         {
-            PooConcepts.AllPooConcepts();
+            //PooConcepts.AllPooConcepts();
             //BasicConcepts.AllBasicConcepts();
         }
     }
