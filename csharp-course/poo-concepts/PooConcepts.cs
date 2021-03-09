@@ -32,7 +32,7 @@ namespace csharp_course.poo_concepts
             //Console.WriteLine(Song.songCount);
 
             // ----------
-            //GET AND SET
+            // GET AND SET
             //Movie avengers = new Movie("The Avengers", "Joss Whedon", "PG-13");
             //Movie shrek = new Movie("Shrek", "Adam Adamson", "PG");
             //shrek.Rating = "Dog";
@@ -41,7 +41,7 @@ namespace csharp_course.poo_concepts
             // INSTEAD OF BEING SETTED FOR "DOG", IT WILL SET "NR" BECAUSE OF THE IF IMPLEMENTED IN THE CLASS.
 
             // ----------
-            //OBJECT METHODS
+            // OBJECT METHODS
             //Student student1 = new Student("Adam", "Physics", 3.2);
             //Student student2 = new Student("Beatrice", "Literature", 3.9);
 
