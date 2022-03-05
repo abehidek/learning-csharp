@@ -1,4 +1,4 @@
-# csharp-course
+# C# Crash Course
 
 ## 💻 About this repository
 
